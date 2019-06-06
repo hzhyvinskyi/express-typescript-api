@@ -4,13 +4,15 @@
   "rules": {
       "array-type": [true, "generic"],
       "no-string-literal": false,
-      "object-literal-shorthand": [true, "never"],
+      "object-literal-shorthand": [true],
       "only-arrow-functions": true,
       "interface-name": false,
       "max-classes-per-file": false,
       "no-var-requires": false,
       "ban-types": false,
       "ordered-imports": false,
-      "object-literal-sort-keys": false
+      "object-literal-sort-keys": false,
+      "no-console": false,
+      "member-ordering": false
   }
 }

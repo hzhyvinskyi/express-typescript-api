@@ -2,4 +2,4 @@
 set -ex
 
 PATH="$PATH:$(npm bin)"
-nodemon --exec ts-node ./src/index.ts
+nodemon --exec ts-node ./src/server.ts

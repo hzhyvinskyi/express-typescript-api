@@ -1,6 +1,6 @@
 {
    "type": "postgres",
-   "host": "",
+   "host": process.env,
    "port": 5432,
    "username": "appuser",
    "password": "apppwd",
